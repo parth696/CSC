@@ -1,0 +1,21 @@
+<ul class="collapsible popout container center" data-collapsible="accordion">
+{{#each tech}}
+    <li>
+        <div class="collapsible-header">{{dept}}</div>
+        <div class="collapsible-body">
+            <div class="row">
+                {{#each content}}
+                <div class="col s12 m6 l4">
+                    <div class="card technical-committee-card">
+                        <div class="card-content">
+                        <span class="card-title">{{name}}</span>
+                            <p>{{des}}</p>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </li>
+{{/each}}
+</ul>
