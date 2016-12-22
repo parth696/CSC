@@ -92,7 +92,6 @@ body{
     font-family:Copperplate Gothic;
 }
 
-
 .big-font{
     font-size: 40px;
 }
@@ -109,6 +108,10 @@ body{
 .registration-modal{
     padding:10px;
     border-radius: 2px;
+}
+.footer-copyright{
+    height:50px;
+
 }
 /*bigin: index*/
 
@@ -183,6 +186,9 @@ nav ul a{
 .list-menu-icon{
     padding: 5px;
 }
+#Committees{
+
+}
 #Committees .card{
     margin: 10px auto;
     width: 50%;
@@ -211,7 +217,7 @@ footer {
 
 .chief-patron{
     margin: auto;
- width: 30vw;
+    width: 15vw;
 }
 
 .patron{
@@ -223,16 +229,16 @@ footer {
     width: 20vw;
 }
 .container-fit{
-  width:90%;
+    width:90%;
 }
 
 .convenors .card{
-    //width:15vw;
+//width:15vw;
 }
 
 .core{
     margin: auto;
-    //width: 75%;
+//width: 75%;
 }
 .Committee .card{
     height: 160px;
@@ -240,21 +246,74 @@ footer {
 .Committee .col{
     margin-top: 0;
 }
+/*end:footer*/
+/*begin: technical */
+.card.technical-committee-card{
+    height: 180px;
+    margin: 10px;
+}
+.card.technical-committee-card .card-content{
+    padding: 10px;
+}
+.card.technical-committee-card   .card-content p{
+    padding: 10px;
+}
+.collapsible.container.center{
+    margin: auto;
+}
+/*end: technical */
+/*begin:advisory*/
+.advisory .card {
+    height: 350px;
+    background-color: #26c6da;
+}
+
+.international-advisory-last-row{
+    position: relative;
+    left: 12%;
+}
+.international-advisory .card {
+    height: 430px;
+    background-color: #26c6da;
+}
+
+.national-advisory .card {
+    height: 370px;
+    background-color: #26c6da;
+}
+/*end:advisory*/
 /*media*/
 /*for large screen only*/
 @media only screen and (min-width: 993px) {
-    .row .col.l3.convenors-fit {
+    .row .col.l3.five-fit {
         width: 20%;
         margin-left: auto;
         left: auto;
         right: auto
     }
 }
+
 /*hide in computer*/
 @media only screen and (min-width: 992px) {
     .hide-in-computer{
         display: none !important;
     }
+    .custom-fit-for-7-cards{
+        width: 14.28% !important;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .national-advisory-last-row{
+        position: relative;
+        left:28.56%;
+    }
+    .advisory-last-row{
+        position: relative;
+        left: 12%;
+    }
+
+
 }
 /*tablet*/
 @media only screen and (max-width: 992px)and (min-width: 600px){
@@ -266,24 +325,25 @@ footer {
         width: 90vw;
     }
     .conf-chair{
-    margin: auto;
-    width: 40vw;
-}
+        margin: auto;
+        width: 40vw;
+    }
     .chief-patron{
-    margin: auto;
-    width: 50vw;
-}
+        margin: auto;
+        width: 50vw;
+    }
     .big-font{
-    font-size: 40px;
-}
+        font-size: 40px;
+    }
     .medium-font{
-    font-size: 30px;
-}
+        font-size: 30px;
+    }
     .small-font{
-    font-size: 14px;
-}
-
-
+        font-size: 14px;
+    }
+    .international-advisory-last-row{
+        left: auto;
+    }
 }
 /*phone*/
 @media only screen and (max-width: 600px) {
@@ -315,22 +375,15 @@ footer {
         margin: 10px auto;
         width: 90%;
     }
+    .international-advisory-last-row{
+        position: relative;
+        left: auto;
+    }
+    .footer-copyright{
+        height:70px;
+
+    }
 }
-/*begin: technocal */
-.card.technical-committee-card{
-    height: 180px;
-    margin: 10px;
-}
-.card.technical-committee-card .card-content{
-    padding: 10px;
-}
-.card.technical-committee-card   .card-content p{
-    padding: 10px;
-}
-.collapsible.container.center{
-    margin: auto;
-}
-/*end: technocal */
 
 
 
@@ -430,8 +483,8 @@ footer {
 }
 
 @media print,
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
