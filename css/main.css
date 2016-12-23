@@ -194,6 +194,10 @@ nav ul a{
     width: 50%;
 }
 /*end:mainpage*/
+.about_us{
+    margin:20px auto;
+    width:60%;
+}
 /*begin:footer*/
 footer {
     position: absolute;
