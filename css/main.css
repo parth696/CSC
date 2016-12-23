@@ -110,7 +110,7 @@ body{
     border-radius: 2px;
 }
 .footer-copyright{
-    height:50px;
+    height:30px;
 
 }
 /*bigin: index*/
@@ -445,7 +445,7 @@ tr:nth-child(even) {
         left: auto;
     }
     .footer-copyright{
-        height:70px;
+        height:10px;
 
     }
 }
